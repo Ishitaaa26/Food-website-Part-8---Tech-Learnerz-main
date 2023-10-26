@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pirata+One&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Stick&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&display=swap" rel="stylesheet">
+
+    <title>Our services | QuickFod</title>
+</head>
+<style>
+    #navbar {
+        background-color: rgb(15, 13, 13);
+    }
+    
+    #QuickFood-logo {
+        margin: 60px 480px;
+    }
+    
+    .cart {
+        color: white;
+        float: right;
+        margin-top: -130px;
+        margin-right: 20px;
+        height: 40px;
+    }
+    
+    .cart-txt {
+        color: whitesmoke;
+        float: right;
+        margin-top: -120px;
+        font-family: 'Roboto Mono', monospace;
+        margin-right: 10px;
+    }
+    
+    .mobile {
+        color: white;
+        float: left;
+        margin-top: -130px;
+        height: 43px;
+        margin-left: 10px;
+    }
+    
+    .sub-txt {
+        margin-top: 10px;
+        color: gray;
+    }
+    
+    .sub-txt:hover {
+        color: orange;
+    }
+    
+    .num-txt {
+        color: whitesmoke;
+        float: left;
+        margin-top: -120px;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 20px;
+    }
+    
+    .num {
+        margin-left: 30px;
+    }
+    
+    #content {
+        overflow: hidden;
+        background-color: transparent;
+        list-style-type: none;
+        margin-top: 50px;
+    }
+    
+    #li {
+        float: left;
+        font-family: 'Pirata One', cursive;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: 'Merriweather', serif;
+    }
+    
+    #li a:hover {
+        color: orange;
+    }
+    
+    #li a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 50px;
+    }
+    
+    .active {
+        margin-left: 300px;
+        border-bottom: 1px solid rgb(255, 136, 0);
+    }
+    
+    #navbar {
+        padding-bottom: 10px;
+    }
+    
+    .text1 {
+        font-family: 'Carter One', cursive;
+        color: whitesmoke;
+        font-size: 20px;
+        width: 800px;
+        border: 2px solid white;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    
+    .text2 {
+        font-family: 'Carter One', cursive;
+        color: whitesmoke;
+        font-size: 20px;
+        width: 800px;
+        border: 2px solid white;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    
+    #food-icon {
+        float: right;
+        margin-top: -150px;
+        color: rgb(172, 172, 172);
+        margin-right: 110px;
+    }
+    
+    #food-icon:hover {
+        color: white;
+    }
+    
+    #card-icon {
+        float: right;
+        margin-top: -150px;
+        color: rgb(172, 172, 172);
+        margin-right: 100px;
+    }
+    
+    #card-icon:hover {
+        color: white;
+    }
+    
+    .end {
+        background-color: black;
+    }
+</style>
+
+<body>
+    <div id="navbar" class="navbar">
+        <img src="images/logo" alt="QuckFood" id="QuickFood-logo">
+        <div class="cart-txt">
+            <h2 class="cart-text">$0.00
+            </h2>
+            <p class="sub-txt">0 Items in the cart</p>
+        </div>
+        <img src="images/cart.png" alt="cart" class="cart">
+        <img src="images/mobile.png" alt="call-us" class="mobile">
+        <div class="num-txt">
+            <h2 class="num">+215 456 15 15
+            </h2>
+            <p class="sub-txt">8:00 am - 11:30pm</p>
+        </div>
+        <ul id="content">
+            <li id="li" class="active"><a href="index.html">Home</a></li>
+            <li id="li"><a href="menu.html">Menu</a></li>
+            <li id="li"><a href="about.html">About</a></li>
+            <li id="li"><a href="services.html">Services
+                </a></li>
+            <li id="li"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="section2">
+        <div class="box1">
+            <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum modi laudantium eos accusamus itaque, nulla, veniam molestias voluptas doloribus quisquam facilis officiis pariatur recusandae quo sit aliquam, iste ut praesentium voluptates
+                placeat accusantium sint. Eligendi sint laboriosam voluptates, cum possimus omnis commodi! Libero quidem reprehenderit distinctio facilis possimus cumque!</p>
+            <i class="fas fa-hamburger fa-6x" id="food-icon"></i>
+        </div>
+        <div class="box2">
+            <p class="text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quasi, soluta obcaecati dolore est ipsam. Nostrum distinctio impedit beatae nisi nihil. Possimus quam cum nulla temporibus nisi numquam officiis ipsum aperiam unde, saepe tempora,
+                inventore labore ducimus distinctio laudantium laborum. Perferendis id ut recusandae sequi magni, suscipit ab voluptatum atque.</p>
+            <i class="fas fa-id-card fa-6x" id="card-icon"></i>
+        </div>
+    </div>
+    <div class="head2" id="head2">
+        <div class="icon1">
+            <img src="images/icon_1.png" alt="icon" id="icon1">
+            <h1 class="txt1">Quality Food</h1>
+            <h3 class="txt1-sub">Our company provides the best quaaity foods</h3>
+        </div>
+        <div class="icon2">
+            <img src="images/icon_2.png" alt="icon" id="icon2">
+            <h1 class="txt2">Best Recipes</h1>
+            <h3 class="txt2-sub">Our company makes food with best recipes</h3>
+        </div>
+        <div class="icon3">
+            <img src="images/icon_3.png" alt="icon" id="icon3">
+            <h1 class="txt3">Fastest delivery</h1>
+            <h3 class="txt3-sub">Our company delivers food within 30 minutes
+                <br> If we don't we will give the food for free
+            </h3>
+        </div>
+        <!-- </div> -->
+        <div class="end">
+            <ul id="content">
+                <li id="li" class="active"><a href="index.html">Home</a></li>
+                <li id="li"><a href="menu.html">Menu</a></li>
+                <li id="li"><a href="about.html">About</a></li>
+                <li id="li"><a href="services.html">Services</a></li>
+                <li id="li"><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="images/logo" alt="logo" id="logo-end">
+        </div>
+    </div>
+</body>
+
+</html>
